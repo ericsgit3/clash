@@ -6,7 +6,7 @@ fun main() {
     var num2: Double
     var operator: String
 
-    println("简单计算器程序")
+    println("")
     println("---------------------")
 
     print("输入第一个数字: ")
