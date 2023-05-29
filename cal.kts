@@ -27,5 +27,5 @@ fun main() {
     }
 
     println("---------------------")
-    println("结果: $result")
+    println("$result")
 }
