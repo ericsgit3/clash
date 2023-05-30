@@ -5,7 +5,7 @@ import com.android.build.gradle.BaseExtension
 import java.net.URL
 import java.util.*
 
-buildscript {
+
     repositories {
         mavenCentral()
         google()
