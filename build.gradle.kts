@@ -20,8 +20,7 @@ import java.util.*
 subprojects {
     repositories {
         mavenCentral()
-        google()
-        maven("https://maven.kr328.app/releases")
+        
     }
 
     val isApp = name == "app"
