@@ -7,9 +7,6 @@ import java.util.*
 
 
     repositories {
-        mavenCentral()
-        google()
-        maven("https://maven.kr328.app/releases")
     }
     dependencies {
         classpath(libs.build.android)
