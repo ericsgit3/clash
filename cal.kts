@@ -9,10 +9,10 @@ fun main() {
     println("")
     println("---------------------")
 
-    print("输入第一个数字: ")
+    print("")
     num1 = scanner.nextDouble()
 
-    print("输入第二个数字: ")
+    print("")
     num2 = scanner.nextDouble()
 
     print("选择操作符 (+, -, *, /): ")
