@@ -1,2 +1,2 @@
 # clash
-clash project
+clash is my first project
