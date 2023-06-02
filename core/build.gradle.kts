@@ -10,3 +10,13 @@ plugins {
     id("kotlinx-serialization")
     id("golang-android")
 }
+golang {
+    sourceSets {
+        create("foss") {
+            tags.set(listOf("foss"))
+            srcDir.set(file("src/foss/golang"))
+        }
+        create("premium") {
+            tags.set(listOf("premium", "without_gvisor", "without_system"))
+            srcDir.set(file("src/premium/golang"))
+        }
