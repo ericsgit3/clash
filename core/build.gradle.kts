@@ -1,7 +1,6 @@
 import com.github.kr328.golang.GolangBuildTask
 import com.github.kr328.golang.GolangPlugin
 import java.io.FileOutputStream
-import java.net.URL
 import java.time.Duration
 
 plugins {
