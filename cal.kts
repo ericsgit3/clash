@@ -8,8 +8,6 @@ fun main() {
 
     println("")
     println("---------------------")
-
-    print("")
     num1 = scanner.nextDouble()
 
     print("")
